@@ -22,6 +22,13 @@
 		// Remove "loading" class once the page has fully loaded.
 			window.onload = function() {
 				document.body.className = '';
+
+				var dateObj = new Date(),
+				curentYear = dateObj.getFullYear();
+				// domEl = document.querySelector(".year");
+				document.getElementById('year').innerHTML = curentYear;
+				// textContent = curentYear
+				// console.log(curentYear);
 			}
 
 		// Prevent scrolling on touch.
