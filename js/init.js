@@ -23,12 +23,8 @@
 			window.onload = function() {
 				document.body.className = '';
 
-				var dateObj = new Date(),
-				curentYear = dateObj.getFullYear();
-				// domEl = document.querySelector(".year");
-				document.getElementById('year').innerHTML = curentYear;
-				// textContent = curentYear
-				// console.log(curentYear);
+				var dateObj = new Date(), curentYear = dateObj.getFullYear();
+				document.querySelector(".year").innerHTML = curentYear;
 			}
 
 		// Prevent scrolling on touch.
