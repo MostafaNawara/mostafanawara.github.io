@@ -6,8 +6,10 @@
 		<script src="js/init.js"></script>
 		<script>
 			var dateObj = new Date(),
-			curentYear = dateObj.getFullYear();
-			document.querySelector(".year").textContent = curentYear;
+			curentYear = dateObj.getFullYear(),
+			domEl = document.querySelector(".year");
+			// textContent = curentYear
+			console.log(curentYear);
 		</script>
 		<noscript>
 			<link rel="stylesheet" href="css/skel.css" />
